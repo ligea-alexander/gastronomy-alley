@@ -1,0 +1,469 @@
+body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    background-color: #333;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+    padding: 0;
+  }
+
+  a {
+    color: #f7ffca;
+  }  
+
+.serif {
+    font-family: 'DM Serif Text', serif;
+}
+
+.sans-serif {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* choose a light or dark theme to add to  the body tag. */
+.dark-theme {
+    background-color: #242938;
+    color: #fbfbfb;
+}
+
+/* .light-theme {
+    background-color: white;
+    color: black;
+} */
+
+.hr-lines{
+    position: relative;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: 'DM Serif Text', serif;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+  .hr-lines:before{
+    content:" ";
+    height: 4px;
+    width: 155px;
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -90px;
+  }
+  
+  .hr-lines:after{
+    content:" ";
+    height: 4px;
+    width: 155px;
+    background: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -90px;
+  }
+  
+  #chapter-title{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 1rem;
+  
+  }
+
+.header {
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    max-width: 1080px;
+    padding: 0px 10px;
+}
+
+.story-body,
+.chart-section,
+.footer {
+    margin: auto;
+    padding: 10px 0px;
+    max-width: 680px;
+}
+
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.chart {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.chart-section.wide {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.chart-section.wide p.chart-title {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.chart-section.wide p.chart-subhead {
+    width: 100%;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+p.kicker {
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+h1.headline {
+    font-family: 'DM Serif Text', serif;
+    font-size: 3rem;
+    text-transform: capitalize;
+    line-height: 1.1;
+    margin-bottom: 0.25rem;
+}
+
+h2.subhead {
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+p.body-text {
+    font-size: 1.19rem;
+    line-height: 1.5;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h3.section-head {
+    font-size: 2rem;
+    margin: 40px 0 10px 0;
+    font-weight: 700;
+    line-height: 1.3;
+}
+
+.byline {
+    font-size: 1.1rem;
+    line-height: 0.75;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+
+.date {
+    font-size: 0.85rem;
+    line-height: 1;
+    margin-top: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+
+p.note {
+    font-size: 1rem;
+}
+
+/* chart styles */
+
+.chart-section {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 30px;
+    padding: 30px 0px;
+}
+
+.story-body .chart-section {
+    padding-top: 0px;
+}
+
+
+.chart-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+p.chart-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    max-width: 700px;
+    margin: 0px auto 5px auto;
+}
+
+p.chart-subhead {
+    margin: 0 auto;
+    max-width: 700px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+p.chart-label {
+    margin: 0 0 5px 0;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.chart-row .chart {
+    width: 100%;
+    padding-right: 15px;
+    min-width: calc(25% - 15px);
+}
+
+
+
+p.chart-source {
+    font-size: 0.85rem;
+    margin: 0;
+}
+
+/* Silver Peak Mine Scrollytelling */
+.mine {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: clip;
+}
+
+#silverpeak {
+    min-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#scrolly3 {
+    position: relative;
+    /* padding: 1rem; */
+  }
+
+/* photos */
+
+.photo-section {
+    padding: 30px 0px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    max-width: 1200px;
+}
+
+.photo {
+    width: 100%;
+    padding-right: 15px;
+}
+
+.photo img {
+    width: 100%;
+}
+
+p.caption {
+    font-size: 0.9rem;
+    margin: 0;
+    color: #606060;
+}
+
+/* mobile */
+@media (max-width:700px) {
+
+    .chart-row {
+        display: block;
+    }
+
+    .chart-row .chart {
+        padding: 0;
+    }
+
+    .photo-section {
+        display: block;
+    }
+
+    .photo {
+        padding: 0;
+    }
+
+    .container {
+        flex-direction: column;
+        max-width: 95%;
+        padding: 10px 0px;
+    }
+
+    .algae {
+        width: 95%;
+        padding: 10px 0px;
+    }
+
+    .header, .story-body {
+        padding: 0px 10px;
+    }
+
+    h1.headline {
+        font-size: 2.2rem;
+    }
+
+    h2.subhead {
+        font-size: 1.2rem;
+        line-height: 150%;
+    }
+
+    p.body-text {
+        font-size: 1.1rem;
+        line-height: 1.5;
+    }
+
+    p.caption {
+        font-size: 0.8rem;
+    }
+}
+
+/* These are styles for scrollytelling */
+#scrolly {
+    position: relative;
+    /* padding: 1rem; */
+  }
+
+  .scrolly-overlay {
+    position: relative;
+    padding: 0;
+    max-width: 35rem;
+    margin: 0 auto;
+  }
+
+  #scrolly2 {
+    position: relative;
+    /* padding: 1rem; */
+  }
+
+  .sticky-thing {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 0;
+    top: 0;
+    height: 100vh;
+    /* Center everything inside */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .step {
+    margin: 0 auto 2rem auto;
+    margin-bottom: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    border-radius: 15px;
+  }
+
+  .step p {
+    font-family: 'Open Sans', sans-serif;
+    text-align: left;
+    padding: 1rem 2rem;
+    font-size: 1.18rem;
+  }
+
+  /* .hidden {
+    visibility: hidden;
+  } */
+
+  g, text, path {
+    opacity: 1;
+    transition: opacity 2s;
+  }
+  
+  g.hidden, text.hidden, path.hidden {
+    opacity: 0;
+  }
+  
+  g:not(.hidden), text:not(.hidden), path:not(.hidden) {
+    opacity: 1;
+  }
+
+  /* When it's less than 700 pixels wide, do normal scrollytelling */
+
+  @media only screen and (min-width: 700px) {
+    #scrolly.side-by-side {
+      display: flex;
+    }
+
+    #scrolly.side-by-side > div {
+      flex-basis: 0;
+      flex-grow: 1;
+      flex-shrink: 1;
+      padding: 0.75em;
+    }
+
+    #scrolly.side-by-side .scrolly-overlay {
+      margin-top: 70vh;
+      order: 0;
+      /* Change these to adjust sizing options */
+      min-width: 15rem;
+      max-width: 20rem;
+    }
+
+    #scrolly.side-by-side .sticky-thing {
+      order: 1;
+      flex-grow: 2;
+    }
+  }
+
+
+/* These are the styles for ai2html */
+
+#g-reserve-large,
+#g-reserve-mobile,
+#g-production2-large,
+#g-production2-mobile,
+#g-end-use-mobile,
+#g-us_imports-mobile,
+#g-recycled2-medium,
+#g-recycled2-mobile
+ {
+    display: none;
+}
+
+@media (max-width: 480px) {
+    #g-end-use-mobile,
+    #g-production2-mobile,
+    #g-recycled2-mobile {
+        display: block;
+    }
+}
+
+/* @media (min-width: 550px) and (max-width: 800px) {
+    #g-bemidji-radial-tablet,
+    #g-iceridge-tablet {
+        display: block;
+    }
+} */
+
+@media (min-width: 480px) {
+    #g-reserve-large,
+    #g-production2-large,
+    #g-recycled2-medium {
+        display: block;
+    }
+}
