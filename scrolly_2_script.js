@@ -8,11 +8,11 @@ d3.select("#step-three").on('stepin', function (e) {
     d3.select("#gastro_labels").classed("hidden", false);
 })
 
-const scroller = scrollama();
+const scroller2 = scrollama();
 
-scroller
+scroller2
     .setup({
-        step: "#scrolly .scrolly-overlay2 .step",
+        step: "#scrolly2 .scrolly-overlay2 .step",
         offset: 0.75,
         debug: false
     })
@@ -25,4 +25,4 @@ scroller
         element.dispatchEvent(event);
     });
 
-window.addEventListener("resize", scroller.resize);
+window.addEventListener("resize", scroller1.resize);

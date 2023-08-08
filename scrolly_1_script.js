@@ -12,11 +12,11 @@ d3.select("#step-one").on('stepin', function (e) {
     d3.select("#little_caribbean3").classed("hidden", false);
 })
 
-const scroller = scrollama();
+const scroller1 = scrollama();
 
-scroller
+scroller1
     .setup({
-        step: "#scrolly .scrolly-overlay1 .step",
+        step: "#scrolly1 .scrolly-overlay1 .step",
         offset: 0.75,
         debug: false
     })
@@ -29,4 +29,4 @@ scroller
         element.dispatchEvent(event);
     });
 
-window.addEventListener("resize", scroller.resize);
+window.addEventListener("resize", scroller0.resize);
