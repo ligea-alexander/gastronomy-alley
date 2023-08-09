@@ -1,6 +1,4 @@
-
-/* Scrollytelling code goes under here */
-// Scrollama 2 - Gastro Streets
+// Scrollama 3 - Gastro Boundary
 // annotation is #gastro_labels
 d3.select("#gastro_labels").classed("hidden", true);
 
@@ -9,11 +7,11 @@ d3.select("#step-three").on('stepin', function (e) {
     d3.select("#gastro_labels").classed("hidden", false);
 })
 
-const scroller2 = scrollama();
+const scroller3 = scrollama();
 
-scroller2
+scroller3
     .setup({
-        step: "#scrolly2 .scrolly-overlay2 .step",
+        step: "#scrolly3 .scrolly-overlay3 .step",
         offset: 0.75,
         debug: false
     })
@@ -26,4 +24,4 @@ scroller2
         element.dispatchEvent(event);
     });
 
-window.addEventListener("resize", scroller2.resize);
+window.addEventListener("resize", scroller3.resize);

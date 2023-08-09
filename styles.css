@@ -10,11 +10,11 @@ nav {
     align-items: center;
     height: 50px;
     padding: 0;
-  }
+}
 
-  a {
+a {
     color: #f7ffca;
-  }  
+}
 
 .serif {
     font-family: 'DM Serif Text', serif;
@@ -35,7 +35,7 @@ nav {
     color: black;
 } */
 
-.hr-lines{
+.hr-lines {
     position: relative;
     max-width: 500px;
     margin: 100px auto;
@@ -43,10 +43,10 @@ nav {
     font-family: 'DM Serif Text', serif;
     font-size: 35px;
     font-weight: 600;
-  }
-  
-  .hr-lines:before{
-    content:" ";
+}
+
+.hr-lines:before {
+    content: " ";
     height: 4px;
     width: 155px;
     background: rgb(255, 255, 255);
@@ -54,10 +54,10 @@ nav {
     position: absolute;
     top: 50%;
     left: -90px;
-  }
-  
-  .hr-lines:after{
-    content:" ";
+}
+
+.hr-lines:after {
+    content: " ";
     height: 4px;
     width: 155px;
     background: rgb(255, 255, 255);
@@ -65,15 +65,15 @@ nav {
     position: absolute;
     top: 50%;
     right: -90px;
-  }
-  
-  #chapter-title{
+}
+
+#chapter-title {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     gap: 1rem;
-  
-  }
+
+}
 
 .header {
     text-align: center;
@@ -340,21 +340,22 @@ p.caption {
 /* #scrolly {
     position: relative;
     /* padding: 1rem; */
-  } */
+/* }  */
 
-  /* .scrolly-overlay {
+/* .scrolly-overlay {
     position: relative;
     padding: 0;
     max-width: 35rem;
     margin: 0 auto;
   } */
 
-  /* #scrolly2 {
+/* #scrolly2 {
     position: relative;
     /* padding: 1rem; */
-  } */
+/* }  */
 
-  /* .sticky-thing {
+
+/* .sticky-thing {
     position: -webkit-sticky;
     position: sticky;
     left: 0;
@@ -364,13 +365,13 @@ p.caption {
     top: 0;
     height: 100vh;
     /* Center everything inside */
-    /* display: flex;
+/* display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: center;
-  } */ */
+  } */
 
-  /* .step {
+/* .step {
     margin: 0 auto 2rem auto;
     margin-bottom: 100vh;
     background-color: rgba(255, 255, 255, 0.9);
@@ -385,11 +386,11 @@ p.caption {
     font-size: 1.18rem;
   } */
 
-  /* .hidden {
+/* .hidden {
     visibility: hidden;
   } */
 
-  /* g, text, path {
+/* g, text, path {
     opacity: 1;
     transition: opacity 2s;
   }
@@ -400,35 +401,36 @@ p.caption {
   
   g:not(.hidden), text:not(.hidden), path:not(.hidden) {
     opacity: 1;
-  } */ */
+  } */
 
-  /* When it's less than 700 pixels wide, do normal scrollytelling */
+/* When it's less than 700 pixels wide, do normal scrollytelling */
 
-  @media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px) {
     #scrolly.side-by-side {
-      display: flex;
+        display: flex;
     }
+}
 
-    #scrolly.side-by-side > div {
-      flex-basis: 0;
-      flex-grow: 1;
-      flex-shrink: 1;
-      padding: 0.75em;
-    }
+#scrolly.side-by-side>div {
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75em;
+}
 
-    #scrolly.side-by-side .scrolly-overlay {
-      margin-top: 70vh;
-      order: 0;
-      /* Change these to adjust sizing options */
-      min-width: 15rem;
-      max-width: 20rem;
-    }
+#scrolly.side-by-side .scrolly-overlay {
+    margin-top: 70vh;
+    order: 0;
+    /* Change these to adjust sizing options */
+    min-width: 15rem;
+    max-width: 20rem;
+}
 
-    #scrolly.side-by-side .sticky-thing {
-      order: 1;
-      flex-grow: 2;
-    }
-  }
+#scrolly.side-by-side .sticky-thing {
+    order: 1;
+    flex-grow: 2;
+}
+
 
 
 /* These are the styles for ai2html */
@@ -440,12 +442,12 @@ p.caption {
 #g-end-use-mobile,
 #g-us_imports-mobile,
 #g-recycled2-medium,
-#g-recycled2-mobile
- {
+#g-recycled2-mobile {
     display: none;
 }
 
 @media (max-width: 480px) {
+
     #g-end-use-mobile,
     #g-production2-mobile,
     #g-recycled2-mobile {
@@ -453,14 +455,15 @@ p.caption {
     }
 }
 
-/* @media (min-width: 550px) and (max-width: 800px) {
+@media (min-width: 550px) and (max-width: 800px) {
     #g-bemidji-radial-tablet,
     #g-iceridge-tablet {
         display: block;
     }
-} */
+}
 
 @media (min-width: 480px) {
+
     #g-reserve-large,
     #g-production2-large,
     #g-recycled2-medium {

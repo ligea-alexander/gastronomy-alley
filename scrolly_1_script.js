@@ -1,5 +1,7 @@
 
 /* Scrollytelling code goes under here */
+
+// Scrollama 1 - Brooklyn Borough
 // annotation is #little_caribbean1 #little_caribbean2 #little_caribbean3
 d3.select("#little_caribbean1").classed("hidden", true);
 d3.select("#little_caribbean2").classed("hidden", true);
@@ -30,3 +32,4 @@ scroller1
     });
 
 window.addEventListener("resize", scroller1.resize);
+
