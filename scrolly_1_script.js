@@ -29,4 +29,4 @@ scroller1
         element.dispatchEvent(event);
     });
 
-window.addEventListener("resize", scroller0.resize);
+window.addEventListener("resize", scroller1.resize);

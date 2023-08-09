@@ -25,4 +25,4 @@ scroller2
         element.dispatchEvent(event);
     });
 
-window.addEventListener("resize", scroller1.resize);
+window.addEventListener("resize", scroller2.resize);

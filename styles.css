@@ -235,7 +235,7 @@ p.chart-source {
     margin: 0;
 }
 
-/* Silver Peak Mine Scrollytelling */
+/* Silver Peak Mine Scrollytelling
 .mine {
     margin: 0;
     padding: 0;
@@ -251,16 +251,16 @@ p.chart-source {
     min-width: 100%;
     object-fit: cover;
     object-position: center;
-}
+} */
 
-#scrolly3 {
+/* #scrolly3 {
     position: relative;
-    /* padding: 1rem; */
-  }
+    padding: 1rem;
+  } */
 
 /* photos */
 
-.photo-section {
+/* .photo-section {
     padding: 30px 0px;
     width: 100%;
     margin: auto;
@@ -281,10 +281,10 @@ p.caption {
     font-size: 0.9rem;
     margin: 0;
     color: #606060;
-}
+} */
 
 /* mobile */
-@media (max-width:700px) {
+/* @media (max-width:700px) {
 
     .chart-row {
         display: block;
@@ -337,24 +337,24 @@ p.caption {
 }
 
 /* These are styles for scrollytelling */
-#scrolly {
+/* #scrolly {
     position: relative;
     /* padding: 1rem; */
-  }
+  } */
 
-  .scrolly-overlay {
+  /* .scrolly-overlay {
     position: relative;
     padding: 0;
     max-width: 35rem;
     margin: 0 auto;
-  }
+  } */
 
-  #scrolly2 {
+  /* #scrolly2 {
     position: relative;
     /* padding: 1rem; */
-  }
+  } */
 
-  .sticky-thing {
+  /* .sticky-thing {
     position: -webkit-sticky;
     position: sticky;
     left: 0;
@@ -364,13 +364,13 @@ p.caption {
     top: 0;
     height: 100vh;
     /* Center everything inside */
-    display: flex;
+    /* display: flex;
     justify-content: center;
     flex-direction: column;
     justify-content: center;
-  }
+  } */ */
 
-  .step {
+  /* .step {
     margin: 0 auto 2rem auto;
     margin-bottom: 100vh;
     background-color: rgba(255, 255, 255, 0.9);
@@ -383,13 +383,13 @@ p.caption {
     text-align: left;
     padding: 1rem 2rem;
     font-size: 1.18rem;
-  }
+  } */
 
   /* .hidden {
     visibility: hidden;
   } */
 
-  g, text, path {
+  /* g, text, path {
     opacity: 1;
     transition: opacity 2s;
   }
@@ -400,7 +400,7 @@ p.caption {
   
   g:not(.hidden), text:not(.hidden), path:not(.hidden) {
     opacity: 1;
-  }
+  } */ */
 
   /* When it's less than 700 pixels wide, do normal scrollytelling */
 
